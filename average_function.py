@@ -8,6 +8,10 @@ def temp_comment(temp):
     else:
         print("It is a Cold day")
 
+var = " "
+while var != "End" :  # This constructs an infinite loop
+    temp_comment(float(input('What is the current temperature ? ')))
 
-temp_comment(float(input('What is the current temperature ? ')))
+print "Good bye!"
+
 
